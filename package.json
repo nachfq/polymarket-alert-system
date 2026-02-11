@@ -1,0 +1,14 @@
+{
+  "name": "polymarket-alert-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "node src/scan.js",
+    "scan:once": "node src/scan.js --maxAlerts 5",
+    "paper": "node src/paper.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
