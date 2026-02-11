@@ -6,6 +6,8 @@
   "scripts": {
     "scan": "node src/scan.js",
     "scan:once": "node src/scan.js --maxAlerts 5",
+    "daemon": "node src/daemon.js",
+    "report:closed": "node src/report-closed.js",
     "paper": "node src/paper.js"
   },
   "engines": {
